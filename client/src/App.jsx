@@ -12,7 +12,7 @@ import AddCourse from "./pages/educator/AddCourse";
 import MyCourses from "./pages/educator/MyCourses";
 import StudentsEnrolled from "./pages/educator/StudentsEnrolled";
 import Navbar from "./components/student/Navbar";
-
+import './custom-styles.css';
 const App = () => {
 
 const isEducatorRoute = useMatch('/educator/*');
